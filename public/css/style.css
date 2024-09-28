@@ -1,0 +1,23 @@
+/* Admin Dashboard */
+.custom-card {
+    background-color: #1e1e2f; /* Dark background color */
+    color: #f0f0f5; /* Light text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.custom-card-header {
+    background-color: #292942; /* Slightly lighter background for header */
+    border-bottom: 2px solid #1e90ff; /* Blue border */
+    color: #1e90ff; /* Custom header text color */
+    text-align: center; /* Center-align text */
+}
+
+.custom-card-body h2 {
+    color: #f0f0f5; /* Ensure consistency in the body text color */
+}
